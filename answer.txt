@@ -1,0 +1,33 @@
+First step I found MD5 hash of "hello"
+5d41402abc4b2a76b9719d911017c592
+
+now I XORed each of the hashes with MD5 hash of hello
+
+6b64756576696168657a766775646465
+696c716e676a726879776e66786c7973
+346c7176736c75646f657474756272757465
+
+Since this is in hexadecimal I converted it to ascii
+
+kdueviahezvguddeilqngjrhywnfxlys4lqvsludoettubrute
+
+ettubrute are the last words of Julius Caesar, so I decrypted the remaining text using caesar shift with key from 1 to 25
+
+The only meaningful key was this
+
+harbsfxebwsdraabfinkdgoevtkcuivp4inspiral
+
+4 in spiral indicated spiral cipher being used and 4 represented column size
+
+harbsfxebwsdraabfinkdgoevtkcuivp
+I wrote this in spiral and I got
+
+HARBKDGSNPOFIVEXFIVEBUTBACKWARDS
+
+FIVE X FIVE BUT BACKWARDS , this hinted in ploybius square or playfair cipher, since there was no key
+I went with polybius cipher and since BACKWARDS was mentioned I filled the grid the reverse order
+
+HARBKDGSNPO 
+
+this gave me 
+4355245441524423333132 , which when converted to ascii gave me the answer!!
